@@ -23,10 +23,10 @@ bool firstiter = true;
 #define SCREEN_ADDRESS 0x3C
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-const char* ssid     = "--your-ssid--";
+const char* ssid     = "--your-ssid--"; // <=============================================PUT UR SSID AND PASSWORD HERE
 const char* password = "--your-password--";
 // Set the rosserial socket server IP address
-IPAddress server(192,168,12,15);
+IPAddress server(192,168,0,1); // <================================================== PUT UR IP HERE
 // Set the rosserial socket server port
 const uint16_t serverPort = 11411;
 
