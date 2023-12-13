@@ -42,9 +42,8 @@ void messageCb( const std_msgs::String& msg){
   delay(1000);
   display.clearDisplay();
 
-     // blink the led
 }
-// ros::Publisher chatter("chatter", &str_msg);
+
 ros::Subscriber<std_msgs::String> sub("chatter", messageCb );
 
 
@@ -76,7 +75,6 @@ void setup()
   Serial.print("IP = ");
   Serial.println(nh.getHardware()->getLocalIP());
 
-  // Start to be polite
   nh.subscribe(sub);
   
   // initialize the OLED object
@@ -113,7 +111,6 @@ void loop()
     firstiter = false;
 
     }
-    // Say hello
   } else {
     Serial.println("Not Connected");
     display.clearDisplay();
