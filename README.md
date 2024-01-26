@@ -27,5 +27,5 @@ Chat wireless by using one laptop and a microcontroller and display
 4. if everything is done right, one should be able to see 'connected' shown on the display after a while. Now one can send and see the messages wirelessly.
 
 ## What next:
-This project is very simple , but may be extended even further,  by using a webserver it many become completely independent of ROS. One may also add some input methods like num pad to recieve and check input , or even voice commands, to make this kind of like a home security system. 
+This project is very simple , but may be extended even further,  by using a webserver it may become completely independent of ROS. One may also add some input methods like num pad to recieve and check input , or even voice commands, to make this kind of like a home security system. 
 ![WhatsApp Image 2023-12-14 at 01 02 54_4d86d984](https://github.com/Meh-Mehul/Helloe/assets/146803848/33f4bcce-5a62-4f1e-ae8c-d89bcebbf2bf)
